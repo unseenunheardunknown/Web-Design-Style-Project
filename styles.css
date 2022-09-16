@@ -7,6 +7,7 @@
     margin:auto;
 
 }
+
 .colors-centered{
     text-align: center;
 }
@@ -428,4 +429,64 @@ header{
 .pm-styled{
     font-family: 'Permanent Marker', cursive;
     
+}
+/*rubik-marker-hatch*/
+.rubik-marker-hatch{
+    transform:translate(20px, 1000px);
+}
+.title-rubik-marker-hatch{
+    transform:translate(180px, -400px);
+    font-family: 'rubik-marker-hatch', cursive;
+    font-size: 50px;
+}
+.Nabla{
+    height: 700px;
+    width: 300px;
+
+    text-align: center;
+    font-family: 'rubik-marker-hatch' cursive;
+  
+}
+.bold-rubik-marker-hatch{
+    font-weight: bold;
+    height: 700px;
+    width: 360px; 
+    
+    transform:translate(600px, -1750px);
+    font-family: 'Rubik Marker Hatch', cursive;
+
+    text-align:center;
+
+}
+.italic-rubik-marker-hatch{
+    font-style: italic;
+    height: 1050px;
+    width: 300px; 
+    border: 1px solid black;
+    transform:translate(300px, -700px);
+    font-family: 'Rubik Marker Hatch', cursive;
+
+  
+    text-align:center;
+    
+}
+.normal-rubik-marker-hatch{
+    font-family: 'Rubik Marker Hatch', cursive;
+  
+    text-align: center;
+
+}
+.title-rubik-marker-hatch{
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+.font-Nabla{
+    width: 960px;
+    height: 1050px;
+    border: 1px solid black;
+    margin: auto;
+    transform:translate(20px, -400px);
+   
+}
+.rmh-styled{
+    font-family: 'Rubik Marker Hatch', cursive;
 }
