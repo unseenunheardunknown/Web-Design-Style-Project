@@ -1,0 +1,428 @@
+/* Will style the container div that will hold all of the colors*/
+.colors{
+    width: 960px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    margin:auto;
+
+}
+h1{
+    text-align:center;
+    margin: auto;
+}
+/* Will style the title of the web site : Web Design Styles Sheet*/
+header{
+    text-align:center;
+    margin: auto;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+    /* color: green */
+.g{
+    color: rgb(0 255 0);
+}
+.g:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+ /* color: red*/
+.r{
+    color: rgb(255 0 0);
+}
+.r:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+/* color: blue */
+.b{
+    color: rgb(0 0 255);
+}
+.b:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+   /*color: yellow */
+.y{
+    color: rgb(255 255 0);
+}
+.y:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+/* color orange*/
+
+.o{
+    color: rgb(255 150 0);
+}
+.o:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+.s{
+    color: rgb(0 0 0);
+}
+.s:hover{
+    font-size: 40px;
+    transform: 4s;
+}
+
+/*green-color scheme*/
+#green{
+    width: 166.67px;
+    height: 500px;
+    background-color: rgb(0,255,0);
+    margin-bottom: 100px;
+}
+
+/*red-color scheme*/
+#red{
+    width: 160px;
+    height: 500px;
+    background-color: rgb(255,0,0);
+    margin-left:160px;
+   
+    
+}
+#blue{
+    width: 160px;
+    height: 500px;
+    background-color: rgb(0 0 255);
+    margin-left:160px;
+   
+}
+#yellow{
+    width: 160px;
+    height: 500px;
+    background-color: rgb(255 255 0);
+    margin-left: 160px;
+    
+}
+#orange{
+    width: 160px;
+    height: 500px;
+    background-color: rgb(255 150 0);
+    margin-left: 160px;
+   
+}
+#black{
+    width:160px;
+    height:500px;
+    background-color:rgb(0 0 0);
+    margin-left: 160px;
+   
+}
+/* green box content*/
+.greenbox{
+    
+    
+    transform:translate(20px, -400px);
+    font-weight:700;
+}
+.greenbox:hover{
+    color: rgb(10, 185, 42);
+    font-size: 20px;
+    transform: 4s;
+}
+.greenbox:active{
+    color: red;
+}
+/* red box content*/
+.redbox{
+    
+    
+    transform:translate(180px, -470px);
+    font-weight:700;
+}
+.redbox:hover{
+    color: rgb(151, 5, 5);
+    font-size: 20px;
+    transform: 4s;
+}
+.redbox:active{
+    color: rgb(0,255,0);
+}
+/* blue box content*/
+.bluebox{
+    transform:translate(340px, -550px);
+    font-weight:700;
+}
+.bluebox:hover{
+    color: rgb(94, 112, 228);
+    font-size: 20px;
+    transform: 4s;
+}
+.bluebox:active{
+    color: rgb(255, 0, 0);
+}
+/* yellow box content*/
+.yellowbox{
+    transform:translate(490px, -620px);
+    font-weight:700;
+}
+.yellowbox:hover{
+    color: rgb(161, 161, 16);
+    font-size: 20px;
+    transform: 4s;
+}
+.yellowbox:active{
+    color: rgb(16, 8, 167);
+}
+/*orange box content*/
+.orangebox{
+    transform:translate(650px, -690px);
+    font-weight:700;
+}
+.orangebox:hover{
+    color:  rgb(162, 97, 6);
+    font-size: 20px;
+    transform: 4s;
+}
+.orangebox:active{
+    color: rgb(255, 255, 0);
+}
+/* black box content*/
+.blackbox{
+    color: rgb(255, 255, 0);
+    transform:translate(820px, -760px);
+    font-weight:700;
+}
+.blackbox:hover{
+    color:  rgb(255, 255, 255);
+    font-size: 20px;
+    transform: 4s;
+}
+.blackbox:active{
+    color: rgb(162, 97, 6);;
+}
+
+
+/* Box of FONT */
+.fonts{
+    
+    width: 960px;
+    height: 700px;
+    border: 1px solid black;
+    margin: auto;
+    transform:translate(20px, -400px);
+}
+
+
+/* Title of font box */
+.title{
+    transform:translate(0px, -500px);
+    
+}
+
+/*Font-families*/
+/*Creepster*/
+.creepster-styled-f{
+    font-family: 'Creepster', cursive;
+}
+.creepster{
+    font-family: 'Creepster', cursive;
+}
+/*subheading Of creepster*/
+.title-creep{
+    transform:translate(330px, -400px);
+    font-family: 'creepster', cursive;
+    font-size: 50px;
+}
+.creepster{
+    height: 700px;
+    width: 300px;
+    border: 1px solid black; 
+    text-align: center;
+}
+.bold-creep{
+    font-weight: bold;
+    height: 700px;
+    width: 360px; 
+    border: 1px solid black;
+    transform:translate(600px, -1405px);
+    font-family: 'creepster', cursive;
+
+    text-align:center;
+
+}
+.italic-creep{
+    font-style: italic;
+    height: 700px;
+    width: 300px; 
+    border: 1px solid black;
+    transform:translate(300px, -703px);
+    font-family: 'creepster', cursive;
+
+    text-align:center;
+    
+}
+.normal-creep{
+    text-align: center;
+}
+.title-creep{
+    font-family: 'creepster' cursive;
+
+    /*ms-Madi*/
+}
+.ms-Madi{
+    transform:translate(-20px,-900px);
+    font-family: 'Ms Madi', cursive;
+}
+.bold-ms{
+    font-weight: bold;
+    height: 700px;
+    width: 360px; 
+    border: 1px solid black;
+    transform:translate(600px, -1405px);
+    font-family: 'Ms Madi', cursive;
+    text-align:center;
+}
+.italic-ms{
+    font-style: italic;
+    height: 700px;
+    width: 300px; 
+    border: 1px solid black;
+    transform:translate(300px, -703px);
+    font-family: 'Ms Madi', cursive;
+
+    text-align:center;   
+}
+.normal-ms{
+    font-family:'Ms Madi', cursive;
+    text-align: center;
+}
+.Ms-Madi{
+    height: 700px;
+    width: 300px;
+    border: 1px solid black; 
+    text-align: center;
+    font-family: 'Ms Madi' cursive;
+}
+.title-ms{
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+    transform:translate(325px, -1300px);
+
+}
+    /*Nabla*/
+ 
+ .Nabla{
+    font-family: 'Nabla' cursive;
+ }
+
+/*subheading Of creepster*/
+.title-Nabla{
+    transform:translate(330px, -400px);
+    font-family: 'Nabla', cursive;
+    font-size: 50px;
+}
+.Nabla{
+    height: 700px;
+    width: 300px;
+
+    text-align: center;
+    font-family: 'Nabla' cursive;
+  
+}
+.bold-Nabla{
+    font-weight: bold;
+    height: 700px;
+    width: 360px; 
+    
+    transform:translate(600px, -1750px);
+    font-family: 'Nabla', cursive;
+
+    text-align:center;
+
+}
+.italic-Nabla{
+    font-style: italic;
+    height: 1050px;
+    width: 300px; 
+    border: 1px solid black;
+    transform:translate(300px, -700px);
+    font-family: 'Nabla', cursive;
+  
+    text-align:center;
+    
+}
+.normal-Nabla{
+    font-family: 'Nabla', cursive;
+    text-align: center;
+
+}
+.title-Nabla{
+    font-family: 'Nabla' cursive;
+}
+.font-permanent-marker{
+    width: 960px;
+    height: 1050px;
+    border: 1px solid black;
+    margin: auto;
+    transform:translate(20px, -400px);
+   
+}
+.Nabla-styled{
+    font-family: 'Nabla', cursive;
+}
+/* permanent marker*/
+.permanent-marker{
+    transform:translate(-20px, -900px);
+}
+.title-permanent-marker{
+    transform:translate(180px, -400px);
+    font-family: 'permanent-marker', cursive;
+    font-size: 50px;
+}
+.Nabla{
+    height: 700px;
+    width: 300px;
+
+    text-align: center;
+    font-family: 'permanent-marker' cursive;
+  
+}
+.bold-permanent-marker{
+    font-weight: bold;
+    height: 700px;
+    width: 360px; 
+    
+    transform:translate(600px, -1750px);
+    font-family: 'permanent-marker', cursive;
+
+    text-align:center;
+
+}
+.italic-permanent-marker{
+    font-style: italic;
+    height: 1050px;
+    width: 300px; 
+    border: 1px solid black;
+    transform:translate(300px, -700px);
+    font-family: 'permanent-marker', cursive;
+  
+    text-align:center;
+    
+}
+.normal-permanent-marker{
+    font-family: 'permanent-marker', cursive;
+    text-align: center;
+
+}
+.title-Nabla{
+    font-family: 'Nabla' cursive;
+}
+.font-Nabla{
+    width: 960px;
+    height: 1050px;
+    border: 1px solid black;
+    margin: auto;
+    transform:translate(20px, -400px);
+   
+}
+.pm-styled{
+    font-family: 'Permanent Marker', cursive;
+    
+}
